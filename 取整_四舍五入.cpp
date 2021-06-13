@@ -27,6 +27,6 @@ void Get_Integer(float a[],int len)
 int main()
 {
 	float array[]={1.2,3.6,4.7,8.9,5.6,5.1,5.9,10.5,17.45,19.7};
-    Get_Integer(array,sizeof(array)/sizeof(*array));
+        Get_Integer(array,sizeof(array)/sizeof(*array));
 	exit(0);
 }
