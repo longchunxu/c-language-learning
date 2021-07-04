@@ -1,1 +1,0 @@
-cmd_/root/桌面/drvC/Chardev/Chardev.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /root/桌面/drvC/Chardev/Chardev.ko /root/桌面/drvC/Chardev/Chardev.o /root/桌面/drvC/Chardev/Chardev.mod.o ;  true
