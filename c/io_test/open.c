@@ -41,7 +41,7 @@
 
      ret = read(fd,rbuf,sizeof(rbuf)/sizeof(*rbuf));
       if (ret < 0){
-         perror("write fail !!!");
+         perror("read fail !!!");
          exit(-1);
      } else {
          printf("read %d bytes successful: %s  \n",ret,rbuf);
